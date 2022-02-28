@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "calculator",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Nguyen Tu<nguyenminhtu.nguyen@gmail.com>",
+  "license": "MIT"
+}

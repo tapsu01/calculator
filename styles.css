@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  background-color: #1c2128;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #22272e;
+  border: 1px solid #444c56;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 320px;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.gap12 {
+  gap: 12px;
+}
+
+.btn {
+  color: #fdfdfd;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.5rem;
+  height: 60px;
+  width: 60px;
+  box-shadow: none;
+  border: 0;
+}
+
+.btn-number {
+  background-color: #373e47;
+}
+
+.btn-circle {
+  border-radius: 50%;
+}
+
+.btn-operator,
+.btn-equal {
+  background-color: #dc8c00;
+}
+
+.btn-clear,
+.btn-delete {
+  border-radius: 6px;
+  flex: 1;
+  height: 44px;
+  font-size: 1rem;
+}
+
+.btn-clear {
+  background-color: #316dca;
+}
+
+.btn-delete {
+  background-color: #c93c37;
+}
+
+.form-control {
+  padding: 6px 12px;
+  height: 40px;
+  width: 100%;
+}
